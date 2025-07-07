@@ -1,0 +1,6 @@
+@References.Api_HostAddress = http://localhost:5245
+
+GET {{References.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
