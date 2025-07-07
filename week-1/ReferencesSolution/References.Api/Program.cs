@@ -24,7 +24,7 @@ namespace References.Api
             app.UseAuthorization();
 
 
-            app.MapControllers();
+            app.MapControllers(); //Reflection the ability for code to look at itself
 
             app.Run();
         }
