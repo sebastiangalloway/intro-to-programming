@@ -11,3 +11,6 @@ You do not have to be "Mr. Robot" haxx0r level, but a *little* competence goes a
 
 [Command Line (about 80% of what you need)](https://www.youtube.com/watch?v=QKBcHuA3VJE&list=PL0M0zPgJ3HSesuPIObeUVQNbKqlw5U2Vr&index=15)
 
+## C# Tutorials
+
+https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/
