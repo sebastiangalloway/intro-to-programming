@@ -1,0 +1,11 @@
+@ProxyCheck.Api_HostAddress = http://localhost:32768
+
+POST {{ProxyCheck.Api_HostAddress}}/check-link/
+Accept: application/json
+Content-Type: application/json
+
+{
+    "href": "http://geico.com"
+}
+
+###

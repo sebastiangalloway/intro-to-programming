@@ -1,0 +1,15 @@
+services:
+  db: 
+    image: postgres:16.2-bullseye
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user
+      POSTGRES_DB: links 
+    ports:
+      - 5432:5432
+  proxy:
+    image: jeffrygonzalez/prox-api:v1.0.0
+    ports:
+      - 1338:8080
+
+
